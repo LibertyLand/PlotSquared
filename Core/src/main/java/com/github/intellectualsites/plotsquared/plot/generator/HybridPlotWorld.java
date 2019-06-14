@@ -100,7 +100,7 @@ public class HybridPlotWorld extends ClassicPlotWorld {
         plot = plot.getBasePlot(false);
         Location bot = plot.getBottomAbs();
         if (SIGN_LOCATION == null) {
-            bot.setY(ROAD_HEIGHT + 1);
+            bot.setY(ROAD_HEIGHT + 2);
             return bot.add(-1, 0, -2);
         } else {
             bot.setY(0);
