@@ -463,7 +463,7 @@ public class ClassicPlotManager extends SquarePlotManager {
     @Override public Location getSignLoc(Plot plot) {
         plot = plot.getBasePlot(false);
         Location bot = plot.getBottomAbs();
-        return new Location(classicPlotWorld.worldname, bot.getX() - 1, classicPlotWorld.ROAD_HEIGHT + 2,
+        return new Location(classicPlotWorld.worldname, bot.getX() - 1, classicPlotWorld.ROAD_HEIGHT + 3,
             bot.getZ() - 2);
     }
 }
